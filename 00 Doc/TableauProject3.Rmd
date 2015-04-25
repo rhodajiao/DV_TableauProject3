@@ -1,0 +1,29 @@
+---
+title: "Tableau Project 3: Census Data and Community Crime"
+output: html_document
+---
+Rhoda Jiao and Maytee Chantharayukhont
+
+We used two data sources in this project: one was a set of joined tables with US census data (income, school enrollment, population size) and the other was a data set describing the crime rates in communities in the US.
+
+After some reformatting, we uploaded the data to sql and blended it in Tableau by adding the secondary data source, editing the relationship, and matching on the community name and on the state.
+
+<img src="../00 Doc/blend.png" />
+
+#Visualizations
+In this figure, we show the average of the median community incomes by state, color coded by the average number of arsons that happen per 100K people.  
+
+<img src="../00 Doc/arson.png" />
+
+This figure has the number of burglaries in the state and the school enrollment for each state.
+
+<img src="../00 Doc/burglaries.png" />
+
+This figure shows the number of data points for each state, representing the number of murders in major communities in 1995 in color and the amount of poor households (income < $10,000 / year) living there in the size of each data point.
+
+<img src="../00 Doc/murder.png" />
+
+The data points in this graph represent the ratio of violent to nonviolent crime in each state. The size of the point indicates the population size, and the color represents the region of the country. 
+
+<img src="../00 Doc/ratio.png" />
+
