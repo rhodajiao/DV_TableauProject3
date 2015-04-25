@@ -5,403 +5,6 @@
   <preferences>
   </preferences>
   <datasources>
-    <datasource caption='COMMUNITYVIOLENCE (C##CS329E_RJ6793)' inline='true' name='oracle.42115.739586493059' version='8.3'>
-      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_RJ6793' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_rj6793'>
-        <relation name='COMMUNITYVIOLENCE' table='[C##CS329E_RJ6793].[COMMUNITYVIOLENCE]' type='table' />
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>COMMUNITYNAME</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[COMMUNITYNAME]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>COMMUNITYNAME</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>4000</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>STATE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[STATE]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>STATE</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>4000</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>POPULATION</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[POPULATION]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>POPULATION</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MURDERS</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MURDERS]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>MURDERS</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MURDPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MURDPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>MURDPERPOP</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>RAPES</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[RAPES]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>RAPES</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>RAPESPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[RAPESPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>RAPESPERPOP</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ROBBERIES</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ROBBERIES]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>ROBBERIES</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ROBBBPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ROBBBPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>ROBBBPERPOP</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ASSAULTS</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ASSAULTS]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>ASSAULTS</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ASSAULTPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ASSAULTPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>ASSAULTPERPOP</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>BURGLARIES</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[BURGLARIES]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>BURGLARIES</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>BURGLPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[BURGLPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>BURGLPERPOP</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>LARCENIES</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[LARCENIES]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>LARCENIES</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>LARCPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[LARCPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>LARCPERPOP</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AUTOTHEFT</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AUTOTHEFT]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>AUTOTHEFT</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AUTOTHEFTPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AUTOTHEFTPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>AUTOTHEFTPERPOP</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ARSONS</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ARSONS]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>ARSONS</remote-alias>
-            <ordinal>19</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ARSONSPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ARSONSPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>ARSONSPERPOP</remote-alias>
-            <ordinal>20</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>VIOLENTCRIMESPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[VIOLENTCRIMESPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>VIOLENTCRIMESPERPOP</remote-alias>
-            <ordinal>21</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>NONVIOLPERPOP</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[NONVIOLPERPOP]</local-name>
-            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
-            <remote-alias>NONVIOLPERPOP</remote-alias>
-            <ordinal>22</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>38</precision>
-            <scale>4</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Arsonsperpop' datatype='real' name='[ARSONSPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Arsons' datatype='real' name='[ARSONS]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Assaultperpop' datatype='real' name='[ASSAULTPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Assaults' datatype='real' name='[ASSAULTS]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Autotheftperpop' datatype='real' name='[AUTOTHEFTPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Autotheft' datatype='real' name='[AUTOTHEFT]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Burglaries' datatype='real' name='[BURGLARIES]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Burglperpop' datatype='real' name='[BURGLPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Communityname' datatype='string' name='[COMMUNITYNAME]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Larcenies' datatype='real' name='[LARCENIES]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Larcperpop' datatype='real' name='[LARCPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Murders' datatype='real' name='[MURDERS]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Murdperpop' datatype='real' name='[MURDPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Nonviolperpop' datatype='real' name='[NONVIOLPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <column caption='Population' datatype='real' name='[POPULATION]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Rapesperpop' datatype='real' name='[RAPESPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Rapes' datatype='real' name='[RAPES]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Robbbperpop' datatype='real' name='[ROBBBPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Robberies' datatype='real' name='[ROBBERIES]' role='measure' type='quantitative'>
-      </column>
-      <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
-      </column>
-      <column caption='Violentcrimesperpop' datatype='real' name='[VIOLENTCRIMESPERPOP]' role='measure' type='quantitative'>
-      </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-    </datasource>
     <datasource caption='INCOME+ (C##CS329E_MC44693)' inline='true' name='oracle.42115.744663055557' version='8.3'>
       <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_MC44693' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_mc44693'>
         <relation join='inner' type='join'>
@@ -1363,42 +966,1544 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
+    <datasource caption='INCOMEMODIFIED+ (C##CS329E_MC44693)' inline='true' name='oracle.42118.800600185183' version='8.3'>
+      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_MC44693' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_mc44693'>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[INCOMEMODIFIED].[AREA_NAME]'>
+              </expression>
+              <expression op='[EDUCATIONMODIFIED].[AREA_NAME]'>
+              </expression>
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[INCOMEMODIFIED].[AREA_NAME]'>
+                </expression>
+                <expression op='[POPULATIONMODIFIED].[AREA_NAME]'>
+                </expression>
+              </expression>
+            </clause>
+            <relation name='INCOMEMODIFIED' table='[C##CS329E_MC44693].[INCOMEMODIFIED]' type='table' />
+            <relation name='POPULATIONMODIFIED' table='[C##CS329E_MC44693].[POPULATIONMODIFIED]' type='table' />
+          </relation>
+          <relation name='EDUCATIONMODIFIED' table='[C##CS329E_MC44693].[EDUCATIONMODIFIED]' type='table' />
+        </relation>
+        <cols>
+          <map key='[AREA_NAME (EDUCATIONMODIFIED)]' value='[EDUCATIONMODIFIED].[AREA_NAME]' />
+          <map key='[AREA_NAME (POPULATIONMODIFIED)]' value='[POPULATIONMODIFIED].[AREA_NAME]' />
+          <map key='[AREA_NAME]' value='[INCOMEMODIFIED].[AREA_NAME]' />
+          <map key='[ENROLL_1987]' value='[EDUCATIONMODIFIED].[ENROLL_1987]' />
+          <map key='[ENROLL_1988]' value='[EDUCATIONMODIFIED].[ENROLL_1988]' />
+          <map key='[ENROLL_1989]' value='[EDUCATIONMODIFIED].[ENROLL_1989]' />
+          <map key='[ENROLL_1990]' value='[EDUCATIONMODIFIED].[ENROLL_1990]' />
+          <map key='[ENROLL_1991]' value='[EDUCATIONMODIFIED].[ENROLL_1991]' />
+          <map key='[ENROLL_1992]' value='[EDUCATIONMODIFIED].[ENROLL_1992]' />
+          <map key='[ENROLL_1993]' value='[EDUCATIONMODIFIED].[ENROLL_1993]' />
+          <map key='[ENROLL_1994]' value='[EDUCATIONMODIFIED].[ENROLL_1994]' />
+          <map key='[ENROLL_1995]' value='[EDUCATIONMODIFIED].[ENROLL_1995]' />
+          <map key='[ENROLL_1996]' value='[EDUCATIONMODIFIED].[ENROLL_1996]' />
+          <map key='[ENROLL_1997]' value='[EDUCATIONMODIFIED].[ENROLL_1997]' />
+          <map key='[ENROLL_1998]' value='[EDUCATIONMODIFIED].[ENROLL_1998]' />
+          <map key='[ENROLL_1999]' value='[EDUCATIONMODIFIED].[ENROLL_1999]' />
+          <map key='[ENROLL_2000]' value='[EDUCATIONMODIFIED].[ENROLL_2000]' />
+          <map key='[ENROLL_2001]' value='[EDUCATIONMODIFIED].[ENROLL_2001]' />
+          <map key='[ENROLL_2002]' value='[EDUCATIONMODIFIED].[ENROLL_2002]' />
+          <map key='[ENROLL_2004]' value='[EDUCATIONMODIFIED].[ENROLL_2004]' />
+          <map key='[ENROLL_2005]' value='[EDUCATIONMODIFIED].[ENROLL_2005]' />
+          <map key='[ENROLL_2006]' value='[EDUCATIONMODIFIED].[ENROLL_2006]' />
+          <map key='[ENROLL_2007]' value='[EDUCATIONMODIFIED].[ENROLL_2007]' />
+          <map key='[ENROLL_2008]' value='[EDUCATIONMODIFIED].[ENROLL_2008]' />
+          <map key='[ENROLL_2009]' value='[EDUCATIONMODIFIED].[ENROLL_2009]' />
+          <map key='[HWITH_INCOME_PAST_12MO_2009]' value='[INCOMEMODIFIED].[HWITH_INCOME_PAST_12MO_2009]' />
+          <map key='[INCOME_LESS_10000_1979]' value='[INCOMEMODIFIED].[INCOME_LESS_10000_1979]' />
+          <map key='[INCOME_LESS_10000_1989]' value='[INCOMEMODIFIED].[INCOME_LESS_10000_1989]' />
+          <map key='[INCOME_LESS_10000_1999]' value='[INCOMEMODIFIED].[INCOME_LESS_10000_1999]' />
+          <map key='[INCOME_LESS_10000_2009]' value='[INCOMEMODIFIED].[INCOME_LESS_10000_2009]' />
+          <map key='[MEDIAN_INCOME_1979]' value='[INCOMEMODIFIED].[MEDIAN_INCOME_1979]' />
+          <map key='[MEDIAN_INCOME_1989]' value='[INCOMEMODIFIED].[MEDIAN_INCOME_1989]' />
+          <map key='[MEDIAN_INCOME_1999]' value='[INCOMEMODIFIED].[MEDIAN_INCOME_1999]' />
+          <map key='[MEDIAN_INCOME_2009]' value='[INCOMEMODIFIED].[MEDIAN_INCOME_2009]' />
+          <map key='[POPULATION_1930]' value='[POPULATIONMODIFIED].[POPULATION_1930]' />
+          <map key='[POPULATION_1940]' value='[POPULATIONMODIFIED].[POPULATION_1940]' />
+          <map key='[POPULATION_1950]' value='[POPULATIONMODIFIED].[POPULATION_1950]' />
+          <map key='[POPULATION_1960]' value='[POPULATIONMODIFIED].[POPULATION_1960]' />
+          <map key='[POPULATION_1970]' value='[POPULATIONMODIFIED].[POPULATION_1970]' />
+          <map key='[POPULATION_1980]' value='[POPULATIONMODIFIED].[POPULATION_1980]' />
+          <map key='[POPULATION_1990]' value='[POPULATIONMODIFIED].[POPULATION_1990]' />
+          <map key='[POPULATION_2000]' value='[POPULATIONMODIFIED].[POPULATION_2000]' />
+          <map key='[POPULATION_2010]' value='[POPULATIONMODIFIED].[POPULATION_2010]' />
+          <map key='[REGION]' value='[INCOMEMODIFIED].[REGION]' />
+          <map key='[STATE (EDUCATIONMODIFIED)]' value='[EDUCATIONMODIFIED].[STATE]' />
+          <map key='[STATE (POPULATIONMODIFIED)]' value='[POPULATIONMODIFIED].[STATE]' />
+          <map key='[STATE]' value='[INCOMEMODIFIED].[STATE]' />
+          <map key='[STCOU (EDUCATIONMODIFIED)]' value='[EDUCATIONMODIFIED].[STCOU]' />
+          <map key='[STCOU (POPULATIONMODIFIED)]' value='[POPULATIONMODIFIED].[STCOU]' />
+          <map key='[STCOU]' value='[INCOMEMODIFIED].[STCOU]' />
+          <map key='[TIMEZONE]' value='[INCOMEMODIFIED].[TIMEZONE]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>AREA_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AREA_NAME]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>AREA_NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATE]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STCOU</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[STCOU]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>STCOU</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEDIAN_INCOME_1979</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[MEDIAN_INCOME_1979]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>MEDIAN_INCOME_1979</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEDIAN_INCOME_1989</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[MEDIAN_INCOME_1989]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>MEDIAN_INCOME_1989</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEDIAN_INCOME_1999</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[MEDIAN_INCOME_1999]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>MEDIAN_INCOME_1999</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEDIAN_INCOME_2009</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[MEDIAN_INCOME_2009]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>MEDIAN_INCOME_2009</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INCOME_LESS_10000_1979</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[INCOME_LESS_10000_1979]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>INCOME_LESS_10000_1979</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INCOME_LESS_10000_1989</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[INCOME_LESS_10000_1989]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>INCOME_LESS_10000_1989</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INCOME_LESS_10000_1999</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[INCOME_LESS_10000_1999]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>INCOME_LESS_10000_1999</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INCOME_LESS_10000_2009</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[INCOME_LESS_10000_2009]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>INCOME_LESS_10000_2009</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HWITH_INCOME_PAST_12MO_2009</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[HWITH_INCOME_PAST_12MO_2009]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>HWITH_INCOME_PAST_12MO_2009</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REGION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REGION]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>REGION</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIMEZONE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TIMEZONE]</local-name>
+            <parent-name>[INCOMEMODIFIED]</parent-name>
+            <remote-alias>TIMEZONE</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AREA_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AREA_NAME (POPULATIONMODIFIED)]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>AREA_NAME</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATE (POPULATIONMODIFIED)]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STCOU</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[STCOU (POPULATIONMODIFIED)]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>STCOU</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_1930</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_1930]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_1930</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_1940</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_1940]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_1940</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_1950</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_1950]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_1950</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_1960</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_1960]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_1960</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_1970</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_1970]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_1970</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_1980</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_1980]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_1980</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_1990</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_1990]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_1990</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_2000</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_2000]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_2000</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION_2010</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION_2010]</local-name>
+            <parent-name>[POPULATIONMODIFIED]</parent-name>
+            <remote-alias>POPULATION_2010</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AREA_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AREA_NAME (EDUCATIONMODIFIED)]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>AREA_NAME</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATE (EDUCATIONMODIFIED)]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STCOU</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[STCOU (EDUCATIONMODIFIED)]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>STCOU</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1987</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1987]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1987</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1988</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1988]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1988</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1989</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1989]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1989</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1990</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1990]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1990</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1991</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1991]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1991</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1992</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1992]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1992</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1993</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1993]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1993</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1994</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1994]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1994</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1995</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1995]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1995</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1996</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1996]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1996</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1997</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1997]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1997</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1998</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1998]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1998</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_1999</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_1999]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_1999</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2000</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2000]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2000</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2001</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2001]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2001</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2002</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2002]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2002</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2004</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2004]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2004</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2005</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2005]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2005</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2006</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2006]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2006</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2007</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2007]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2007</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2008</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2008]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2008</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENROLL_2009</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ENROLL_2009]</local-name>
+            <parent-name>[EDUCATIONMODIFIED]</parent-name>
+            <remote-alias>ENROLL_2009</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Area Name (Educationmodified)' datatype='string' name='[AREA_NAME (EDUCATIONMODIFIED)]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Area Name (Populationmodified)' datatype='string' name='[AREA_NAME (POPULATIONMODIFIED)]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Area Name' datatype='string' name='[AREA_NAME]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Enroll 1987' datatype='real' name='[ENROLL_1987]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1988' datatype='real' name='[ENROLL_1988]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1989' datatype='real' name='[ENROLL_1989]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1990' datatype='real' name='[ENROLL_1990]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1991' datatype='real' name='[ENROLL_1991]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1992' datatype='real' name='[ENROLL_1992]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1993' datatype='real' name='[ENROLL_1993]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1994' datatype='real' name='[ENROLL_1994]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1995' datatype='real' name='[ENROLL_1995]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1996' datatype='real' name='[ENROLL_1996]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1997' datatype='real' name='[ENROLL_1997]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1998' datatype='real' name='[ENROLL_1998]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 1999' datatype='real' name='[ENROLL_1999]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2000' datatype='real' name='[ENROLL_2000]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2001' datatype='real' name='[ENROLL_2001]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2002' datatype='real' name='[ENROLL_2002]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2004' datatype='real' name='[ENROLL_2004]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2005' datatype='real' name='[ENROLL_2005]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2006' datatype='real' name='[ENROLL_2006]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2007' datatype='real' name='[ENROLL_2007]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2008' datatype='real' name='[ENROLL_2008]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Enroll 2009' datatype='real' name='[ENROLL_2009]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Hwith Income Past 12Mo 2009' datatype='real' name='[HWITH_INCOME_PAST_12MO_2009]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Income Less 10000 1979' datatype='real' name='[INCOME_LESS_10000_1979]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Income Less 10000 1989' datatype='real' name='[INCOME_LESS_10000_1989]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Income Less 10000 1999' datatype='real' name='[INCOME_LESS_10000_1999]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Income Less 10000 2009' datatype='real' name='[INCOME_LESS_10000_2009]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Median Income 1979' datatype='real' name='[MEDIAN_INCOME_1979]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Median Income 1989' datatype='real' name='[MEDIAN_INCOME_1989]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Median Income 1999' datatype='real' name='[MEDIAN_INCOME_1999]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Median Income 2009' datatype='real' name='[MEDIAN_INCOME_2009]' role='measure' type='quantitative'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Population 1930' datatype='real' name='[POPULATION_1930]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 1940' datatype='real' name='[POPULATION_1940]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 1950' datatype='real' name='[POPULATION_1950]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 1960' datatype='real' name='[POPULATION_1960]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 1970' datatype='real' name='[POPULATION_1970]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 1980' datatype='real' name='[POPULATION_1980]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 1990' datatype='real' name='[POPULATION_1990]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 2000' datatype='real' name='[POPULATION_2000]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Population 2010' datatype='real' name='[POPULATION_2010]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Region' datatype='string' name='[REGION]' role='dimension' type='nominal'>
+      </column>
+      <column caption='State (Educationmodified)' datatype='string' name='[STATE (EDUCATIONMODIFIED)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+      </column>
+      <column caption='State (Populationmodified)' datatype='string' name='[STATE (POPULATIONMODIFIED)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+      </column>
+      <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+      </column>
+      <column caption='Stcou (Educationmodified)' datatype='real' name='[STCOU (EDUCATIONMODIFIED)]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Stcou (Populationmodified)' datatype='real' name='[STCOU (POPULATIONMODIFIED)]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Stcou' datatype='real' name='[STCOU]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Timezone' datatype='string' name='[TIMEZONE]' role='dimension' type='nominal'>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='COMMUNITYVIOLENCE (C##CS329E_RJ6793)' inline='true' name='oracle.42115.739586493059' version='8.3'>
+      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_RJ6793' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_rj6793'>
+        <relation name='COMMUNITYVIOLENCE' table='[C##CS329E_RJ6793].[COMMUNITYVIOLENCE]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>COMMUNITYNAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COMMUNITYNAME]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>COMMUNITYNAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATE]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>POPULATION</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MURDERS</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[MURDERS]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>MURDERS</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MURDPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[MURDPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>MURDPERPOP</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAPES</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[RAPES]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>RAPES</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAPESPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[RAPESPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>RAPESPERPOP</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROBBERIES</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ROBBERIES]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>ROBBERIES</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROBBBPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ROBBBPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>ROBBBPERPOP</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ASSAULTS</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ASSAULTS]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>ASSAULTS</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ASSAULTPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ASSAULTPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>ASSAULTPERPOP</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BURGLARIES</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[BURGLARIES]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>BURGLARIES</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BURGLPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[BURGLPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>BURGLPERPOP</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LARCENIES</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[LARCENIES]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>LARCENIES</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LARCPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[LARCPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>LARCPERPOP</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AUTOTHEFT</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AUTOTHEFT]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>AUTOTHEFT</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AUTOTHEFTPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AUTOTHEFTPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>AUTOTHEFTPERPOP</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARSONS</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ARSONS]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>ARSONS</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARSONSPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ARSONSPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>ARSONSPERPOP</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VIOLENTCRIMESPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[VIOLENTCRIMESPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>VIOLENTCRIMESPERPOP</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NONVIOLPERPOP</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[NONVIOLPERPOP]</local-name>
+            <parent-name>[COMMUNITYVIOLENCE]</parent-name>
+            <remote-alias>NONVIOLPERPOP</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Arsonsperpop' datatype='real' name='[ARSONSPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Arsons' datatype='real' name='[ARSONS]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Assaultperpop' datatype='real' name='[ASSAULTPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Assaults' datatype='real' name='[ASSAULTS]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Autotheftperpop' datatype='real' name='[AUTOTHEFTPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Autotheft' datatype='real' name='[AUTOTHEFT]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Burglaries' datatype='real' name='[BURGLARIES]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Burglperpop' datatype='real' name='[BURGLPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Communityname' datatype='string' name='[COMMUNITYNAME]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Larcenies' datatype='real' name='[LARCENIES]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Larcperpop' datatype='real' name='[LARCPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Murders' datatype='real' name='[MURDERS]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Murdperpop' datatype='real' name='[MURDPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Nonviolperpop' datatype='real' name='[NONVIOLPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Population' datatype='real' name='[POPULATION]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Rapesperpop' datatype='real' name='[RAPESPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Rapes' datatype='real' name='[RAPES]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Robbbperpop' datatype='real' name='[ROBBBPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Robberies' datatype='real' name='[ROBBERIES]' role='measure' type='quantitative'>
+      </column>
+      <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+      </column>
+      <column caption='Violentcrimesperpop' datatype='real' name='[VIOLENTCRIMESPERPOP]' role='measure' type='quantitative'>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
   </datasources>
   <worksheets>
-    <worksheet name='Sheet 1'>
+    <worksheet name='BurglarisEnroll'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Burglaries vs. School Enrollment for Each State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
+            <datasource caption='COMMUNITYVIOLENCE (C##CS329E_RJ6793)' name='oracle.42115.739586493059' />
+            <datasource caption='INCOMEMODIFIED+ (C##CS329E_MC44693)' name='oracle.42118.800600185183' />
           </datasources>
+          <datasource-dependencies datasource='oracle.42115.739586493059'>
+            <column caption='Burglaries' datatype='real' name='[BURGLARIES]' role='measure' type='quantitative'>
+            </column>
+            <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+            </column>
+            <column-instance column='[STATE]' derivation='None' name='[none:STATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[BURGLARIES]' derivation='Sum' name='[sum:BURGLARIES:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='oracle.42118.800600185183'>
+            <column caption='Enroll 2009' datatype='real' name='[ENROLL_2009]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[ENROLL_2009]' derivation='Avg' name='[avg:ENROLL_2009:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
           <aggregation value='true' />
         </view>
         <style>
-          <style-rule element='cell'>
-            <format attr='height' value='99' />
-          </style-rule>
         </style>
         <panes>
-          <pane>
+          <pane id='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='2' x-axis-name='[oracle.42115.739586493059].[sum:BURGLARIES:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='3' x-axis-name='[oracle.42118.800600185183].[avg:ENROLL_2009:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[oracle.42115.739586493059].[none:STATE:nk]</rows>
+        <cols>([oracle.42115.739586493059].[sum:BURGLARIES:qk] + [oracle.42118.800600185183].[avg:ENROLL_2009:qk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='IncomeArsons'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Median Income vs. Arsons per 100,000 Population vs. Average for Every State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INCOMEMODIFIED+ (C##CS329E_MC44693)' name='oracle.42118.800600185183' />
+            <datasource caption='COMMUNITYVIOLENCE (C##CS329E_RJ6793)' name='oracle.42115.739586493059' />
+          </datasources>
+          <datasource-dependencies datasource='oracle.42115.739586493059'>
+            <column caption='Arsonsperpop' datatype='real' name='[ARSONSPERPOP]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[ARSONSPERPOP]' derivation='Sum' name='[sum:ARSONSPERPOP:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='oracle.42118.800600185183'>
+            <column caption='Median Income 2009' datatype='real' name='[MEDIAN_INCOME_2009]' role='measure' type='quantitative'>
+            </column>
+            <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+            </column>
+            <column-instance column='[MEDIAN_INCOME_2009]' derivation='Avg' name='[avg:MEDIAN_INCOME_2009:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[STATE]' derivation='None' name='[none:STATE:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <sort class='natural' column='[oracle.42118.800600185183].[none:STATE:nk]' direction='ASC' />
+          <aggregation value='true' />
+        </view>
+        <style>
+        </style>
+        <panes>
+          <pane id='8'>
             <view>
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
-            <style>
-              <style-rule element='pane'>
-                <format attr='minheight' value='-1' />
-                <format attr='maxheight' value='-1' />
-              </style-rule>
-            </style>
+          </pane>
+          <pane id='9' x-axis-name='[oracle.42118.800600185183].[avg:MEDIAN_INCOME_2009:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='10' x-axis-name='[oracle.42115.739586493059].[sum:ARSONSPERPOP:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
           </pane>
         </panes>
-        <rows></rows>
-        <cols></cols>
+        <rows>[oracle.42118.800600185183].[none:STATE:nk]</rows>
+        <cols>([oracle.42118.800600185183].[avg:MEDIAN_INCOME_2009:qk] + [oracle.42115.739586493059].[sum:ARSONSPERPOP:qk])</cols>
       </table>
     </worksheet>
   </worksheets>
   <windows>
     <window class='schema' source-height='-1' />
-    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+    <window auto-hidden='0' class='worksheet' maximized='1' name='IncomeArsons'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1414,22 +2519,276 @@
           <strip size='31'>
             <card type='rows' />
           </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
         </edge>
       </cards>
+      <highlight>
+        <color-one-way>
+          <field>[oracle.42115.739586493059].[none:STATE:nk]</field>
+          <field>[oracle.42118.800600185183].[none:MEDIAN_INCOME_2009:qk]</field>
+          <field>[oracle.42118.800600185183].[none:STATE:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+    <window auto-hidden='0' class='worksheet' maximized='0' name='BurglarisEnroll'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[oracle.42115.739586493059].[none:COMMUNITYNAME:nk]</field>
+          <field>[oracle.42115.739586493059].[none:STATE:nk]</field>
+        </color-one-way>
+      </highlight>
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='144' name='Sheet 1' width='174'>
-      iVBORw0KGgoAAAANSUhEUgAAAK4AAACQCAYAAACRfFAzAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAABmUlEQVR4nO3SQQ0AIBDAMMC/58MDH7KkVbDH9szMgpjzOwBeGJck45JkXJKMS5JxSTIu
-      ScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45Jk
-      XJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYl
-      ybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKM
-      S5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgk
-      GZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5Jx
-      STIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck
-      45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuSRePYgUc7kJNEQAAAABJRU5ErkJg
-      gg==
+    <thumbnail height='192' name='IncomeArsons' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='BurglarisEnroll' width='192'>
+      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
     </thumbnail>
   </thumbnails>
 </workbook>
